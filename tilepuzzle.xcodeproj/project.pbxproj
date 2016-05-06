@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E50AB6D81522CAA100152FB4 /* CustomImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E50AB6D71522CAA100152FB4 /* CustomImageViewController.xib */; };
+		E50AB6DC1522CEEC00152FB4 /* CustomImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E50AB6DB1522CEEC00152FB4 /* CustomImageViewController.m */; };
+		E511E0E615119D77002DF7A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E511E0E515119D77002DF7A4 /* UIKit.framework */; };
+		E511E0E815119D77002DF7A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E511E0E715119D77002DF7A4 /* Foundation.framework */; };
+		E511E0EA15119D77002DF7A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E511E0E915119D77002DF7A4 /* CoreGraphics.framework */; };
+		E511E0F015119D77002DF7A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E511E0EE15119D77002DF7A4 /* InfoPlist.strings */; };
+		E511E0F215119D77002DF7A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E511E0F115119D77002DF7A4 /* main.m */; };
+		E511E0F615119D77002DF7A4 /* TPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E511E0F515119D77002DF7A4 /* TPAppDelegate.m */; };
+		E511E0FE15119D78002DF7A4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E511E0FD15119D78002DF7A4 /* SenTestingKit.framework */; };
+		E511E0FF15119D78002DF7A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E511E0E515119D77002DF7A4 /* UIKit.framework */; };
+		E511E10015119D78002DF7A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E511E0E715119D77002DF7A4 /* Foundation.framework */; };
+		E511E10815119D78002DF7A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E511E10615119D78002DF7A4 /* InfoPlist.strings */; };
+		E511E10B15119D78002DF7A4 /* TilePuzzleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E511E10A15119D78002DF7A4 /* TilePuzzleTests.m */; };
+		E511E11A1511A15C002DF7A4 /* TileObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E511E1191511A15C002DF7A4 /* TileObject.m */; };
+		E511E11D1511A7CF002DF7A4 /* TileBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = E511E11C1511A7CF002DF7A4 /* TileBoard.m */; };
+		E511E11F1511AF31002DF7A4 /* YellowSquare.png in Resources */ = {isa = PBXBuildFile; fileRef = E511E11E1511AF31002DF7A4 /* YellowSquare.png */; };
+		E511E1211511AF3A002DF7A4 /* MagentaSquare.png in Resources */ = {isa = PBXBuildFile; fileRef = E511E1201511AF3A002DF7A4 /* MagentaSquare.png */; };
+		E511E1231511AF44002DF7A4 /* CyanSquare.png in Resources */ = {isa = PBXBuildFile; fileRef = E511E1221511AF44002DF7A4 /* CyanSquare.png */; };
+		E511E1261511AFF1002DF7A4 /* TilePuzzleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E511E1251511AFF1002DF7A4 /* TilePuzzleViewController.m */; };
+		E511E16E15146174002DF7A4 /* TilePuzzleIpad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E511E16D15146174002DF7A4 /* TilePuzzleIpad.xib */; };
+		E511E17015146397002DF7A4 /* TilePuzzleIphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E511E16F15146397002DF7A4 /* TilePuzzleIphone.xib */; };
+		E511E1881517113A002DF7A4 /* clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = E511E1871517113A002DF7A4 /* clap.wav */; };
+		E511E18A1517114C002DF7A4 /* start.wav in Resources */ = {isa = PBXBuildFile; fileRef = E511E1891517114B002DF7A4 /* start.wav */; };
+		E511E18D151712F6002DF7A4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E511E18B151712DD002DF7A4 /* AudioToolbox.framework */; };
+		E5CB8CB4151E15D500C33E95 /* MenuIphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5CB8CB3151E15D500C33E95 /* MenuIphone.xib */; };
+		E5CB8CB8151E192800C33E95 /* camera-button-bar-background.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CB8CB6151E192800C33E95 /* camera-button-bar-background.png */; };
+		E5CB8CB9151E192800C33E95 /* camera-button-bar-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CB8CB7151E192800C33E95 /* camera-button-bar-background@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E511E10115119D78002DF7A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E511E0D815119D77002DF7A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E511E0E015119D77002DF7A4;
+			remoteInfo = TilePuzzle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E50AB6D71522CAA100152FB4 /* CustomImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomImageViewController.xib; sourceTree = "<group>"; };
+		E50AB6DA1522CEEC00152FB4 /* CustomImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomImageViewController.h; sourceTree = "<group>"; };
+		E50AB6DB1522CEEC00152FB4 /* CustomImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomImageViewController.m; sourceTree = "<group>"; };
+		E511E0E115119D77002DF7A4 /* TilePuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TilePuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E511E0E515119D77002DF7A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E511E0E715119D77002DF7A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E511E0E915119D77002DF7A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E511E0ED15119D77002DF7A4 /* TilePuzzle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TilePuzzle-Info.plist"; sourceTree = "<group>"; };
+		E511E0EF15119D77002DF7A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E511E0F115119D77002DF7A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E511E0F315119D77002DF7A4 /* TilePuzzle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TilePuzzle-Prefix.pch"; sourceTree = "<group>"; };
+		E511E0F415119D77002DF7A4 /* TPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TPAppDelegate.h; path = TilePuzzle/TPAppDelegate.h; sourceTree = "<group>"; };
+		E511E0F515119D77002DF7A4 /* TPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TPAppDelegate.m; path = TilePuzzle/TPAppDelegate.m; sourceTree = "<group>"; };
+		E511E0FC15119D78002DF7A4 /* TilePuzzleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TilePuzzleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E511E0FD15119D78002DF7A4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E511E10515119D78002DF7A4 /* TilePuzzleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TilePuzzleTests-Info.plist"; sourceTree = "<group>"; };
+		E511E10715119D78002DF7A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E511E10915119D78002DF7A4 /* TilePuzzleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TilePuzzleTests.h; sourceTree = "<group>"; };
+		E511E10A15119D78002DF7A4 /* TilePuzzleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TilePuzzleTests.m; sourceTree = "<group>"; };
+		E511E1181511A15C002DF7A4 /* TileObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileObject.h; sourceTree = "<group>"; };
+		E511E1191511A15C002DF7A4 /* TileObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileObject.m; sourceTree = "<group>"; };
+		E511E11B1511A7CF002DF7A4 /* TileBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileBoard.h; sourceTree = "<group>"; };
+		E511E11C1511A7CF002DF7A4 /* TileBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileBoard.m; sourceTree = "<group>"; };
+		E511E11E1511AF31002DF7A4 /* YellowSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YellowSquare.png; sourceTree = "<group>"; };
+		E511E1201511AF3A002DF7A4 /* MagentaSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MagentaSquare.png; sourceTree = "<group>"; };
+		E511E1221511AF44002DF7A4 /* CyanSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CyanSquare.png; sourceTree = "<group>"; };
+		E511E1241511AFF1002DF7A4 /* TilePuzzleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TilePuzzleViewController.h; sourceTree = "<group>"; };
+		E511E1251511AFF1002DF7A4 /* TilePuzzleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TilePuzzleViewController.m; sourceTree = "<group>"; };
+		E511E16D15146174002DF7A4 /* TilePuzzleIpad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TilePuzzleIpad.xib; sourceTree = "<group>"; };
+		E511E16F15146397002DF7A4 /* TilePuzzleIphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TilePuzzleIphone.xib; sourceTree = "<group>"; };
+		E511E1871517113A002DF7A4 /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clap.wav; sourceTree = "<group>"; };
+		E511E1891517114B002DF7A4 /* start.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = start.wav; sourceTree = "<group>"; };
+		E511E18B151712DD002DF7A4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E5CB8CB3151E15D500C33E95 /* MenuIphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuIphone.xib; sourceTree = "<group>"; };
+		E5CB8CB6151E192800C33E95 /* camera-button-bar-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "camera-button-bar-background.png"; path = "TilePuzzleTests/camera-button-bar-background.png"; sourceTree = SOURCE_ROOT; };
+		E5CB8CB7151E192800C33E95 /* camera-button-bar-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "camera-button-bar-background@2x.png"; path = "TilePuzzleTests/camera-button-bar-background@2x.png"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E511E0DE15119D77002DF7A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E511E18D151712F6002DF7A4 /* AudioToolbox.framework in Frameworks */,
+				E511E0E615119D77002DF7A4 /* UIKit.framework in Frameworks */,
+				E511E0E815119D77002DF7A4 /* Foundation.framework in Frameworks */,
+				E511E0EA15119D77002DF7A4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E511E0F815119D78002DF7A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E511E0FE15119D78002DF7A4 /* SenTestingKit.framework in Frameworks */,
+				E511E0FF15119D78002DF7A4 /* UIKit.framework in Frameworks */,
+				E511E10015119D78002DF7A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E511E0D615119D77002DF7A4 = {
+			isa = PBXGroup;
+			children = (
+				E511E0F415119D77002DF7A4 /* TPAppDelegate.h */,
+				E511E0F515119D77002DF7A4 /* TPAppDelegate.m */,
+				E511E0EB15119D77002DF7A4 /* TilePuzzle */,
+				E511E10315119D78002DF7A4 /* TilePuzzleTests */,
+				E511E0E415119D77002DF7A4 /* Frameworks */,
+				E511E0E215119D77002DF7A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E511E0E215119D77002DF7A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E511E0E115119D77002DF7A4 /* TilePuzzle.app */,
+				E511E0FC15119D78002DF7A4 /* TilePuzzleTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E511E0E415119D77002DF7A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E511E18B151712DD002DF7A4 /* AudioToolbox.framework */,
+				E511E0E515119D77002DF7A4 /* UIKit.framework */,
+				E511E0E715119D77002DF7A4 /* Foundation.framework */,
+				E511E0E915119D77002DF7A4 /* CoreGraphics.framework */,
+				E511E0FD15119D78002DF7A4 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E511E0EB15119D77002DF7A4 /* TilePuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				E50AB6DA1522CEEC00152FB4 /* CustomImageViewController.h */,
+				E50AB6DB1522CEEC00152FB4 /* CustomImageViewController.m */,
+				E511E1181511A15C002DF7A4 /* TileObject.h */,
+				E511E1191511A15C002DF7A4 /* TileObject.m */,
+				E511E11B1511A7CF002DF7A4 /* TileBoard.h */,
+				E511E11C1511A7CF002DF7A4 /* TileBoard.m */,
+				E511E1241511AFF1002DF7A4 /* TilePuzzleViewController.h */,
+				E511E1251511AFF1002DF7A4 /* TilePuzzleViewController.m */,
+				E511E0EC15119D77002DF7A4 /* Supporting Files */,
+			);
+			path = TilePuzzle;
+			sourceTree = "<group>";
+		};
+		E511E0EC15119D77002DF7A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E511E11E1511AF31002DF7A4 /* YellowSquare.png */,
+				E50AB6D71522CAA100152FB4 /* CustomImageViewController.xib */,
+				E511E1201511AF3A002DF7A4 /* MagentaSquare.png */,
+				E511E1221511AF44002DF7A4 /* CyanSquare.png */,
+				E511E0ED15119D77002DF7A4 /* TilePuzzle-Info.plist */,
+				E511E0EE15119D77002DF7A4 /* InfoPlist.strings */,
+				E511E0F115119D77002DF7A4 /* main.m */,
+				E511E0F315119D77002DF7A4 /* TilePuzzle-Prefix.pch */,
+				E511E16D15146174002DF7A4 /* TilePuzzleIpad.xib */,
+				E511E16F15146397002DF7A4 /* TilePuzzleIphone.xib */,
+				E5CB8CB3151E15D500C33E95 /* MenuIphone.xib */,
+				E511E1871517113A002DF7A4 /* clap.wav */,
+				E511E1891517114B002DF7A4 /* start.wav */,
+				E5CB8CB6151E192800C33E95 /* camera-button-bar-background.png */,
+				E5CB8CB7151E192800C33E95 /* camera-button-bar-background@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E511E10315119D78002DF7A4 /* TilePuzzleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E511E10915119D78002DF7A4 /* TilePuzzleTests.h */,
+				E511E10A15119D78002DF7A4 /* TilePuzzleTests.m */,
+				E511E10415119D78002DF7A4 /* Supporting Files */,
+			);
+			path = TilePuzzleTests;
+			sourceTree = "<group>";
+		};
+		E511E10415119D78002DF7A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E511E10515119D78002DF7A4 /* TilePuzzleTests-Info.plist */,
+				E511E10615119D78002DF7A4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E511E0E015119D77002DF7A4 /* TilePuzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E511E10E15119D78002DF7A4 /* Build configuration list for PBXNativeTarget "TilePuzzle" */;
+			buildPhases = (
+				E511E0DD15119D77002DF7A4 /* Sources */,
+				E511E0DE15119D77002DF7A4 /* Frameworks */,
+				E511E0DF15119D77002DF7A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TilePuzzle;
+			productName = TilePuzzle;
+			productReference = E511E0E115119D77002DF7A4 /* TilePuzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E511E0FB15119D78002DF7A4 /* TilePuzzleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E511E11115119D78002DF7A4 /* Build configuration list for PBXNativeTarget "TilePuzzleTests" */;
+			buildPhases = (
+				E511E0F715119D78002DF7A4 /* Sources */,
+				E511E0F815119D78002DF7A4 /* Frameworks */,
+				E511E0F915119D78002DF7A4 /* Resources */,
+				E511E0FA15119D78002DF7A4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E511E10215119D78002DF7A4 /* PBXTargetDependency */,
+			);
+			name = TilePuzzleTests;
+			productName = TilePuzzleTests;
+			productReference = E511E0FC15119D78002DF7A4 /* TilePuzzleTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E511E0D815119D77002DF7A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastTestingUpgradeCheck = 0510;
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = E511E0DB15119D77002DF7A4 /* Build configuration list for PBXProject "TilePuzzle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E511E0D615119D77002DF7A4;
+			productRefGroup = E511E0E215119D77002DF7A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E511E0E015119D77002DF7A4 /* TilePuzzle */,
+				E511E0FB15119D78002DF7A4 /* TilePuzzleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E511E0DF15119D77002DF7A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E511E0F015119D77002DF7A4 /* InfoPlist.strings in Resources */,
+				E511E11F1511AF31002DF7A4 /* YellowSquare.png in Resources */,
+				E511E1211511AF3A002DF7A4 /* MagentaSquare.png in Resources */,
+				E511E1231511AF44002DF7A4 /* CyanSquare.png in Resources */,
+				E511E16E15146174002DF7A4 /* TilePuzzleIpad.xib in Resources */,
+				E511E17015146397002DF7A4 /* TilePuzzleIphone.xib in Resources */,
+				E511E1881517113A002DF7A4 /* clap.wav in Resources */,
+				E511E18A1517114C002DF7A4 /* start.wav in Resources */,
+				E5CB8CB4151E15D500C33E95 /* MenuIphone.xib in Resources */,
+				E5CB8CB8151E192800C33E95 /* camera-button-bar-background.png in Resources */,
+				E5CB8CB9151E192800C33E95 /* camera-button-bar-background@2x.png in Resources */,
+				E50AB6D81522CAA100152FB4 /* CustomImageViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E511E0F915119D78002DF7A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E511E10815119D78002DF7A4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E511E0FA15119D78002DF7A4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E511E0DD15119D77002DF7A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E511E0F215119D77002DF7A4 /* main.m in Sources */,
+				E511E0F615119D77002DF7A4 /* TPAppDelegate.m in Sources */,
+				E511E11A1511A15C002DF7A4 /* TileObject.m in Sources */,
+				E511E11D1511A7CF002DF7A4 /* TileBoard.m in Sources */,
+				E511E1261511AFF1002DF7A4 /* TilePuzzleViewController.m in Sources */,
+				E50AB6DC1522CEEC00152FB4 /* CustomImageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E511E0F715119D78002DF7A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E511E10B15119D78002DF7A4 /* TilePuzzleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E511E10215119D78002DF7A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E511E0E015119D77002DF7A4 /* TilePuzzle */;
+			targetProxy = E511E10115119D78002DF7A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E511E0EE15119D77002DF7A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E511E0EF15119D77002DF7A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E511E10615119D78002DF7A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E511E10715119D78002DF7A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E511E10C15119D78002DF7A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E511E10D15119D78002DF7A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E511E10F15119D78002DF7A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TilePuzzle/TilePuzzle-Prefix.pch";
+				INFOPLIST_FILE = "TilePuzzle/TilePuzzle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E511E11015119D78002DF7A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TilePuzzle/TilePuzzle-Prefix.pch";
+				INFOPLIST_FILE = "TilePuzzle/TilePuzzle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E511E11215119D78002DF7A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TilePuzzle.app/TilePuzzle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TilePuzzle/TilePuzzle-Prefix.pch";
+				INFOPLIST_FILE = "TilePuzzleTests/TilePuzzleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E511E11315119D78002DF7A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TilePuzzle.app/TilePuzzle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TilePuzzle/TilePuzzle-Prefix.pch";
+				INFOPLIST_FILE = "TilePuzzleTests/TilePuzzleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E511E0DB15119D77002DF7A4 /* Build configuration list for PBXProject "TilePuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E511E10C15119D78002DF7A4 /* Debug */,
+				E511E10D15119D78002DF7A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E511E10E15119D78002DF7A4 /* Build configuration list for PBXNativeTarget "TilePuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E511E10F15119D78002DF7A4 /* Debug */,
+				E511E11015119D78002DF7A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E511E11115119D78002DF7A4 /* Build configuration list for PBXNativeTarget "TilePuzzleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E511E11215119D78002DF7A4 /* Debug */,
+				E511E11315119D78002DF7A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E511E0D815119D77002DF7A4 /* Project object */;
+}
